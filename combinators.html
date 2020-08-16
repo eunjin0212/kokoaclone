@@ -13,8 +13,10 @@
         padding: 5px;
         border-radius: 10px;
       }
-      p + span {
+      p span {
         color: white;
+      }
+      p ~ span {
         text-decoration: underline;
       }
     </style>
@@ -24,8 +26,9 @@
     <div>
       <p>
         long long long long long long long long long long long long long long
-        long long long long long long long long long long <span>inside</span>
+        long long long long long long long long long long long long long long
       </p>
+      <address>hi</address>
       <span>hello</span>
     </div>
   </body>
