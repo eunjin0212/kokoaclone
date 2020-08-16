@@ -7,29 +7,35 @@
         height: 100vh;
         margin: 50px;
       }
+
       span {
         color: tomato;
         background-color: yellowgreen;
         padding: 5px;
         border-radius: 10px;
       }
-      p span {
-        color: white;
+
+      input {
+        border: 1px solid wheat;
       }
-      p ~ span {
-        text-decoration: underline;
+
+      input[placeholder~="name"] {
+        background-color: thistle;
+      }
+
+      input:required {
+        border: tomato;
       }
     </style>
   </head>
 
   <body>
     <div>
-      <p>
-        long long long long long long long long long long long long long long
-        long long long long long long long long long long long long long long
-      </p>
-      <address>hi</address>
-      <span>hello</span>
+      <form>
+        <input type="text" placeholder="first name" />
+        <input type="text" placeholder="last name" />
+        <input type="password" required placeholder="password" />
+      </form>
     </div>
   </body>
 </html>
