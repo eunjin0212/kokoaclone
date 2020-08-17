@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>animation</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+      @keyframes superSexyCoinFlop {
+        0% {
+          transform: rotateY(0deg);
+        }
+        25% {
+          transform: scale(2);
+        }
+        50% {
+          border-radius: 0px;
+          border-color: tomato;
+          transform: rotateY(180deg) translateY(100px);
+          opacity: 0;
+        }
+        75% {
+          transform: scale(5);
+          border-radius: 20px;
+        }
+        100% {
+          transform: rotateY(0) translateY(0px);
+        }
+      }
+      img {
+        border: 5px solid black;
+        border-radius: 60px;
+        width: 100px;
+        animation: superSexyCoinFlop 5s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="bori.jpg" />
+  </body>
+</html>
