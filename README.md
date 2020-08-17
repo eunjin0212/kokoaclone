@@ -8,7 +8,6 @@
 
 - HTML = hyper text markup language
 - CSS = cascading style sheet
-- 둘다 프로그래밍 언어가 아님.!
 
 ## NOTE
 
