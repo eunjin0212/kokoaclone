@@ -192,9 +192,9 @@ to: hover
 }
 ```
 
-- 무한 애니메이션 예제
+<!-- 무한 애니메이션 예제
   [example 3-9](/3.CSS3/3-9.html)
-  [example 3-10](/3.CSS3/3-10.html)
+  [example 3-10](/3.CSS3/3-10.html) -->
 
 - 4-5 Medai Queries
 
