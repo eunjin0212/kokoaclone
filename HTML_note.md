@@ -26,6 +26,7 @@ cf)파일을 html 로 저장을 하고 html:5를 치면 기본적인 html 구조
 ### 3-4.
 - 패딩을 주는 여러가지 방법
 ```css
+padding: 상우하좌
 padding: 20px;
 padding: 20px 10px;
 padding: 20px 10px 30px 10px;
@@ -61,4 +62,4 @@ top|bottom|right|left :100px;
 ```
 ## 3-7 flex box
 flexbox의 필요성 - 인라인 블럭으로만 만들려고 하면, 매우 귀찮은 일임. 박스가 개행할때의 margin값도 좌우가 다르고, 인라인 블럭들의 정렬도 필요할때 하나하나 조정해야됨.
-그래서 box들의 부모 div를 flex라고 설정해서 부모의 설정만 건드리면 아래 박스들을 한번에 다룰 수 있다.!
+그래서 box들의 부모 div를 flex라고 설정해서 부모의 설정만 건드리면 아래 박스들을 한번에 다룰 수 있다.
