@@ -110,6 +110,13 @@ body {
   overflow: hidden;
 ```
 
+```
+  특정 item을 제외하고 싶을때 
+  #login-form input:not([type="summit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    transition: border-color 0.3s ease-in-out;
+  }
+```
 ## X. 참고 사이트
 
 ## [분석하고 싶은 웹사이트의 사이즈를 볼때](https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme?hl=en)
