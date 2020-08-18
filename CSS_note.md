@@ -97,7 +97,7 @@ input + .box{} 형제 선택자
 input > .box{} direct child 직계 자식
 ```
 
-- 3-9 CSS states
+# 3-9 CSS states
 
 ```css
 .box{ background-color:red; font-size:40px;}
@@ -107,9 +107,9 @@ input > .box{} direct child 직계 자식
 .box:visited{} 클릭했을시
 ```
 
-## [Module #4] Advanced CSS
+# 4. Advanced CSS
 
-- 4-2 트렌지션
+# 4-1 트렌지션
   box클래스에 마우스를 올리면 1초에 걸처 색깔이 서서히 바뀐다.
 
 ```css
@@ -131,7 +131,7 @@ to: hover
 }
 ```
 
-- 4-3 트렌스포메이션
+# 4-3 트렌스포메이션
   html 문서의 요소들의 모습이 바뀌는것, 회전,이동,skew 등등
 
 ```css
@@ -152,7 +152,7 @@ to: hover
 
 - 박스에 마우스를 올렸을때 트렌지션 효과두기
   
-- 4-4 애니메이션
+# 4-4 애니메이션
   계속해서 트렌지션 및 트렌스폼 효과를 주고 싶다면 애니메이션을 주면 됨.
 
 ```css
@@ -196,7 +196,7 @@ to: hover
   [example 3-9](/3.CSS3/3-9.html)
   [example 3-10](/3.CSS3/3-10.html) -->
 
-- 4-5 Medai Queries
+# 4-5 Media Queries
 
 ```css
 @media screen and (min-width: 320px) and (max-width: 640px) {
