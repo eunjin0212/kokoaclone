@@ -59,7 +59,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 ```
-
+- css파일에서 다른 css파일 가져올떄 @import "css file name.css";
 - css파일을 자꾸 쪼개는 이유
 
 1. 작은 쪼갠 css파일들은 결국 styles.css로 통합된다.
@@ -131,7 +131,8 @@ body {
 [ 드리블 멋진 웹사이트 디자인을 찾을 수 있는곳. ](https://dribbble.com/)
 [ 멋진 패경 패턴 ](https://www.toptal.com/designers/subtlepatterns/)
 [ 멋진 UI 그래디언트 ](https://uigradients.com/#MegaTron)
-[ 아이콘 ] (https://fontawesome.com/icons?d=gallery)(https://heroicons.dev/)
-[ CSS 애니매이션 보기 ] (https://animista.net/)
+[ 아이콘 1 ](https://fontawesome.com/icons?d=gallery)
+[ 아이콘 2 ](https://heroicons.dev/)
+[ CSS 애니매이션 보기 ](https://animista.net/)
 
 ---
