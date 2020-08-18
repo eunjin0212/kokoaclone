@@ -107,7 +107,7 @@ input > .box{} direct child 직계 자식
 .box:visited{} 클릭했을시
 ```
 
-## [Module #4] Advanced CSS
+## 4 Advanced CSS
 
 - 4-2 트렌지션
   box클래스에 마우스를 올리면 1초에 걸처 색깔이 서서히 바뀐다.
