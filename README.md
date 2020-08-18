@@ -117,6 +117,9 @@ body {
     transition: border-color 0.3s ease-in-out;
   }
 ```
+- 예쁜 원 만들기 
+  사각형의 width의 절반을 border-radius 로 주기
+  
 ## X. 참고 사이트
 
 ## [분석하고 싶은 웹사이트의 사이즈를 볼때](https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme?hl=en)
