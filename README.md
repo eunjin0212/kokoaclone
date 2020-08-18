@@ -1,9 +1,9 @@
 # 노마드 코더 카카오 클론 강의 레파지토리 및 내용 정리
-## [Module #1] The tools of a Web Developer
+## [#1 The tools of a Web Developer ]
 
-### 개발 환경 : vs code + (Material Theme + Material Icon + prettier) + git/github
+### 다루는 프로그램 : Visual Studio + Atom + git/github
 
-- 깃 = 커밋 + 푸시 + 브랜치 기능
+- 깃 = 커밋 + 푸시 + 브랜치 기능 (버전을 관리하게 해줌)
 - 깃허브는 깃을 클라우드 상에서 관리할 수 있는 웹서비스 , 깃 데스크탑도 있음
 
 - HTML = hyper text markup language
@@ -26,9 +26,9 @@
 ## Outro
 
 - study
-  공부할 PDF 제공!
+  Kokoa Clone 8월 28일 까지
 - homework
-  BEM에 대해서 공부하시요.
+  flex box 복습!
 
 # 카카오 클론 코딩 실전편 ~~
 
@@ -60,16 +60,12 @@ body {
 }
 ```
 
-- 왜이렇게 class를 덕지덕지 붙이나 싶었는데, class를 덕지 덕지 붙였다는 말은 스타일을 일괄적용하고
-  js로 일괄적으로 컨트롤 하겠다는 느낌인것 같다. class나 id가 없는 태그는 음... 비행청소년같은 느낌? 어디로 갔는지 모르겠고
-  설상 문서상에 딱 나타나도 어떻게 js나 css로 잡아줄수가 없네....~!!!!
-
 - css파일을 자꾸 쪼개는 이유
 
 1. 작은 쪼갠 css파일들은 결국 styles.css로 통합된다.
 2. 그렇게 작게 쪼개두면 navbar을 수정할때는 nav.css만 수정하면됨, 구지 길게 파일을 써 내려갈 필요가 없음
 
-- statusbar,header,navbar작업전에는 항상 빨간색을 칠해보고 하드라
+- statusbar,header,navbar작업전에는 항상 빨간색을 칠해본다
 
 - box-sizing: border-box의 이해
 
@@ -135,10 +131,7 @@ body {
 [ 드리블 멋진 웹사이트 디자인을 찾을 수 있는곳. ](https://dribbble.com/)
 [ 멋진 패경 패턴 ](https://www.toptal.com/designers/subtlepatterns/)
 [ 멋진 UI 그래디언트 ](https://uigradients.com/#MegaTron)
+[ 아이콘 ] (https://fontawesome.com/icons?d=gallery)(https://heroicons.dev/)
+[ CSS 애니매이션 보기 ] (https://animista.net/)
 
 ---
-
-# 포커스온미 디자인 클론 프로젝트
-
-1. UI 클론 대상
-   [ Dribbble 링크](https://dribbble.com/yullyb)
