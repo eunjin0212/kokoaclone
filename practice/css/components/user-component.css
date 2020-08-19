@@ -5,6 +5,7 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
