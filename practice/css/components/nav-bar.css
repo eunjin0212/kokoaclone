@@ -20,10 +20,11 @@
   left: 20px;
   bottom: 18px;
 }
-.nav__btn:last-child {
+.nav__btn-notification {
+  position: absolute;
+  left: 30px;
   background-color: tomato;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  display: flex;
 }
