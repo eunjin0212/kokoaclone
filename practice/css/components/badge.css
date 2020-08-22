@@ -13,3 +13,14 @@
 .time {
   margin-top: 20px;
 }
+.new-icon span {
+  font-size: 13px;
+  background-color: tomato;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

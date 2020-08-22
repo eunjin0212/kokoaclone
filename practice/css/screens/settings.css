@@ -1,18 +1,30 @@
-.settings__setting {
+.settings__setting:nth-child(3) {
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--gray);
+}
+.settings__setting:not(.new-icon) {
   padding: 15px 0 35px 0;
   margin: 20px 0 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
   font-size: 18px;
   justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
+.setting-version i,
 .settings__setting i {
   opacity: 0.8;
   margin-right: 20px;
   font-size: 22px;
 }
-.settings__setting:nth-child(3) {
-  padding-bottom: 50px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+.setting-version:not(.setting-version:first-child) {
+  color: rgba(0, 0, 0, 0.4);
+  display: block;
+}
+.setting-version div:nth-child(n + 2):nth-child(-n + 3) {
+  color: rgba(0, 0, 0, 0.4);
+}
+.new-icon {
+  position: absolute;
+  left: 150px;
 }
