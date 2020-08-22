@@ -1,4 +1,5 @@
 # 노마드 코더 카카오 클론 강의 레파지토리 및 내용 정리
+
 ## [#1 The tools of a Web Developer ]
 
 ### 다루는 프로그램 : Visual Studio + Atom + git/github
@@ -59,6 +60,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 ```
+
 - css파일에서 다른 css파일 가져올떄 @import "css file name.css";
 - css파일을 자꾸 쪼개는 이유
 
@@ -111,15 +113,16 @@ body {
 ```
 
 ```
-  특정 item을 제외하고 싶을때 
+  특정 item을 제외하고 싶을때
   #login-form input:not([type="summit"]) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.35);
     transition: border-color 0.3s ease-in-out;
   }
 ```
-- 예쁜 원 만들기 
+
+- 예쁜 원 만들기
   사각형의 width의 절반을 border-radius 로 주기
-  
+
 ## X. 참고 사이트
 
 ## [분석하고 싶은 웹사이트의 사이즈를 볼때](https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme?hl=en)
@@ -146,3 +149,5 @@ body {
 [ CSS 애니매이션 보기 ](https://animista.net/)
 
 ---
+
+[My KakkaoTalk](https://github.com/eunjin0212/kokoaclone/tree/master/practice)
