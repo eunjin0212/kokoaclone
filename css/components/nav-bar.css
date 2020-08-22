@@ -41,6 +41,13 @@
   border-radius: 50%;
 }
 @keyframes appearBtnAnimation {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: none;
+  }
 }
 .nav__btn {
+  animation: appearBtnAnimation 1s ease-in-out;
 }
