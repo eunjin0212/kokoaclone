@@ -1,12 +1,7 @@
-.more-screen .icon-row {
+.icon-row__icon-second,
+.more-screen,
+.icon-row {
   margin-top: 35px;
-}
-.more-screen .second-line {
-  display: flex;
-  justify-items: left;
-}
-.more-screen .second-line .last-div {
-  padding-right: 60px;
 }
 .more-suggestions {
   margin-top: 15px;
