@@ -15,10 +15,22 @@
   color: #2e363e;
   position: relative;
 }
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
 .nav__notification {
   position: absolute;
   left: 20px;
   bottom: 18px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav__btn-notification {
   position: absolute;
@@ -27,4 +39,8 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
+}
+@keyframes appearBtnAnimation {
+}
+.nav__btn {
 }
