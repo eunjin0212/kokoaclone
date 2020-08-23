@@ -6,8 +6,11 @@
   background-color: var(--yellow);
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 32px;
   top: 0;
+  font-style: italic;
+  font-weight: bold;
 }
 @media screen and (max-width: 645px) {
   #no-mobile {
