@@ -10,7 +10,7 @@
 }
 
 .alt-header__title {
-  font-size: 28px;
+  font-size: 21px;
   font-weight: 600;
 }
 
@@ -27,7 +27,6 @@
   display: flex;
   justify-content: flex-end;
 }
-
 .alt-header__column span:last-child {
   margin-left: 20px;
 }
