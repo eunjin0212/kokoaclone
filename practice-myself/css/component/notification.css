@@ -1,0 +1,7 @@
+.red-notification {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  margin-left: 5px;
+}
