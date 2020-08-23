@@ -1,3 +1,6 @@
+.main-screen {
+  height: 1000px;
+}
 .recomended-friends {
   border-top: var(--main-border);
   border-bottom: var(--main-border);
@@ -29,6 +32,8 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
+}
+.open-chat:first-child {
   border-bottom: var(--main-border);
 }
 .open-post__title {
@@ -84,4 +89,22 @@
 }
 .open-post__heart-count span {
   margin-left: 6px;
+}
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
