@@ -1,0 +1,47 @@
+.user,
+.system-drawer:not(:last-child) {
+  border-bottom: var(--main-border);
+  padding-bottom: 9px;
+  margin-bottom: 20px;
+}
+.user {
+  padding-bottom: 30px;
+}
+.user-div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  align-items: center;
+}
+.user-div img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.user-name {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.system-drawer {
+  margin-bottom: 15px;
+}
+.system-drawer__text,
+.system-drawer__header,
+.system-drawer__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.system-drawer__header {
+  margin-bottom: 20px;
+}
+.system-drawer__main img {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+.system-drawer__text div:nth-child(2) {
+  margin-left: 10px;
+}
