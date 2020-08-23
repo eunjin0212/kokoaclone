@@ -1,3 +1,4 @@
+## [ My KakaoTalk ](https://eunjin0212.github.io/kokoaclone/)
 # 노마드 코더 카카오 클론 강의 레파지토리 및 내용 정리
 
 ## [#1 The tools of a Web Developer ]
@@ -150,4 +151,3 @@ body {
 
 ---
 
-[My KakkaoTalk](https://github.com/eunjin0212/kokoaclone/tree/master/practice)
