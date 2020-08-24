@@ -1,14 +1,14 @@
-.screen-header {
+.screen-header__title {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   font-weight: 700;
   font-size: 25px;
-  padding: 40px 25px 0px;
 }
 .screen-header__title-icons {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 .screen-header__title-icons i {
   margin-left: 23px;

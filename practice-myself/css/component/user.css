@@ -27,6 +27,7 @@
 .system-drawer {
   margin-bottom: 15px;
 }
+.system-drawer__main-chat,
 .system-drawer__text,
 .system-drawer__header,
 .system-drawer__main {
@@ -37,11 +38,25 @@
 .system-drawer__header {
   margin-bottom: 20px;
 }
+.system-drawer__main-chat img,
 .system-drawer__main img {
   width: 40px;
   height: 40px;
   border-radius: 15px;
 }
-.system-drawer__text div:nth-child(2) {
+.system-drawer__text span {
   margin-left: 10px;
+}
+.system-drawer__text i {
+  margin-left: 5px;
+}
+.system-drawer__main-chat {
+  margin-top: 30px;
+}
+.system-drawer__text-chat span {
+  display: flex;
+  flex-direction: column;
+}
+.system-drawer__text-chat span:last-child {
+  margin: 5px 10px 0px;
 }

@@ -1,20 +1,18 @@
 .status-bar {
   display: flex;
-  justify-content: center;
-  padding: 0px 0px 25px;
-  position: fixed;
-  width: 100%;
+  justify-content: space-between;
+  padding: 10px 10px;
 }
-.status-bar__signal {
+.status-bar__box {
   display: flex;
-  justify-content: flex-end;
-  width: 33%;
-  padding
 }
 .status-bar__signal div {
-  margin-left: 25px;
+  position: fixed;
+  display: flex;
+}
+.status-bar__signal + .status-bar__signal {
+  margin-left: 10px;
 }
 .status-bar__time {
   font-weight: 600;
-  width: 33%;
 }

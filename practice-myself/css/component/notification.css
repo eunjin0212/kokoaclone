@@ -1,8 +1,28 @@
 .nav__red-notification,
 .red-notification {
-  width: 5px;
-  height: 5px;
+  width: 7px;
+  height: 7px;
+}
+.nav__red-notification-number,
+.system-drawer__new {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.system-drawer__new,
+.nav__red-notification,
+.nav__red-notification-number,
+.red-notification {
   background-color: tomato;
+  color: white;
   border-radius: 50%;
+}
+.red-notification {
+  margin-bottom: 20px;
+}
+.nav__red-notification {
   margin-left: 5px;
 }

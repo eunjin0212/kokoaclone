@@ -15,6 +15,7 @@
 /* screens */
 
 @import "screencss/index.css";
+@import "screencss/shap.css";
 
 body {
   color: #2e363e;

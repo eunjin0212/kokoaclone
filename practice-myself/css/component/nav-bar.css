@@ -8,17 +8,23 @@
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 .nav-bar i {
-  font-size: x-large;
+  font-size: xx-large;
 }
 .nav-bar li {
   display: flex;
   list-style: none;
   justify-content: space-between;
 }
+.nav-bar__chats,
 .nav-bar__more {
   position: relative;
 }
 .nav__red-notification {
   position: absolute;
-  left: 20px;
+  left: 30px;
+}
+.nav__red-notification-number {
+  position: absolute;
+  left: 23px;
+  bottom: 20px;
 }

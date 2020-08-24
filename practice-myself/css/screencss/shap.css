@@ -1,0 +1,45 @@
+.main-screen-shap {
+  padding: 0px 25px;
+}
+.shap-title:not(.class-border) {
+  padding: 0px 25px;
+}
+.shap-title div {
+  justify-content: space-between;
+}
+.shap-title div:not(.shop-title-main) {
+  color: #b4b4b4;
+}
+.shop-title-main {
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+.class-border {
+  padding: 0px;
+  border-top: 1px solid #efefef;
+}
+.shap-texts__all {
+  margin-top: 15px;
+  padding: 0px;
+}
+.bold-border {
+  margin: 0px;
+  border-bottom: 15px solid #efefef;
+}
+.shap-texts__header {
+  padding-right: 40px;
+}
+.shap-texts__header span {
+  margin-bottom: 10px;
+}
+.shap-texts__sub {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.shap-texts__sub span {
+  color: #cf6670;
+}
+.shap-texts__sub i {
+  color: #c8c8c8;
+}

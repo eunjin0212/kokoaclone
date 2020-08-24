@@ -9,32 +9,33 @@
 
   <body>
     <div class="status-bar">
-      <div class="status-bar__time">22:34</div>
-      <div class="status-bar__signal"></div>
-      <div class="status-bar__signal">
-        <div class="status-bar__signal-signal">
+      <div class="status-bar__box">
+        <div class="status-bar__time">22:34</div>
+      </div>
+      <div class="status-bar__box">
+        <div class="status-bar__signal">
           <i class="fas fa-signal"></i>
         </div>
-        <div class="status-bar__signal-wifi">
+        <div class="status-bar__signal">
           <i class="fas fa-wifi"></i>
         </div>
-        <div class="status-bar__signal-battery">
+        <div class="status-bar__signal">
           <i class="fas fa-battery-full"></i>
         </div>
       </div>
     </div>
-    <div class="screen-header">
-      <div class="screen-header__title">
-        <sapn>Friends</sapn>
-      </div>
-      <div class="screen-header__title-icons">
-        <div><i class="fas fa-search"></i></div>
-        <div><i class="fas fa-music"></i></div>
-        <div><i class="fas fa-cog"></i></div>
-        <div class="red-notification"></div>
-      </div>
-    </div>
     <main class="main-screen">
+      <div class="screen-header">
+        <div class="screen-header__title">
+          <sapn>Friends</sapn>
+          <div class="screen-header__title-icons">
+            <div><i class="fas fa-search"></i></div>
+            <div><i class="fas fa-music"></i></div>
+            <div><i class="fas fa-cog"></i></div>
+            <div class="red-notification"></div>
+          </div>
+        </div>
+      </div>
       <div class="user">
         <div class="user-div">
           <img src="me.jpg" />
@@ -120,13 +121,14 @@
           >
         </div>
         <div class="nav-bar__chats">
-          <a href="#"
+          <div class="nav__red-notification-number"><span>3</span></div>
+          <a href="chats.html"
             ><i class="far fa-comment"></i>
             <!-- <i class="fas fa-comment"></i> --></a
           >
         </div>
         <div class="nav-bar__shap">
-          <a href="#"><i class="fas fa-hashtag"></i></a>
+          <a href="shap.html"><i class="fas fa-hashtag"></i></a>
         </div>
         <div class="nav-bar__more">
           <div class="nav__red-notification"></div>
