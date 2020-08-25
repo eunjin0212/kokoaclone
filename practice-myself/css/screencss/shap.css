@@ -1,174 +1,152 @@
-.all {
-  height: 200px;
-}
-.main-screen-shap {
-  padding: 0px 25px;
-}
-.shap-title:not(.class-border),
-.shap-text__main__sub-text {
-  padding: 0px 25px;
-}
-.shap-title div {
-  justify-content: space-between;
-}
-.shap-title div:not(.shop-title-main) {
-  color: #b4b4b4;
-}
-.shop-title-main {
-  border-bottom: 2px solid black;
-  padding-bottom: 20px;
-}
-.class-border {
-  padding: 0px;
-  border-top: 1px solid #efefef;
-}
-.shap-texts__all {
-  margin-top: 15px;
-  padding: 0px;
-}
-.bold-border {
-  margin: 0px;
-  border-bottom: 15px solid #efefef;
-}
-.shap-texts__header {
-  padding-right: 40px;
-}
-.shap-texts__header span {
-  margin-bottom: 10px;
-}
-.shap-texts__sub {
-  justify-content: space-between;
-  padding-left: 0px;
-}
-.shap-texts__sub span {
-  color: #cf6670;
-}
-.shap-texts__sub i {
-  color: #c8c8c8;
-}
-.kakao-qr,
-.shap-texts__sub,
-.shap-text__main,
-.shap-text__main-text span,
-.shap-text__main__sub-text,
-.shap-text__main__sub-img {
-  display: flex;
-}
-
-.shap-text__main {
-  flex-direction: column;
-  padding: 10px 25px;
-}
-.shap-text__main-text span {
-  margin-bottom: 10px;
-}
-.shap-text__main-text + .shap-text__main-text {
-  padding-top: 10px;
-  border-top: 1px solid #efefef;
-}
-.shap-text__main__sub-img {
-  flex-direction: column;
-  align-items: center;
-  font-size: 14px;
-  line-height: 130%;
-}
-.shap-text__main__sub-img img {
-  width: 200px;
-  height: 93px;
-}
-.shap-text__main__sub-img {
-  margin: 0px 20px 0px 20px;
-}
-.shap-text__main__sub-text span {
-  margin-top: 10px;
-  width: 200px;
-}
-.shap-text__main__sub-text {
-  justify-content: center;
-  margin-bottom: 20px;
-}
-.kakao-qr {
-  justify-content: flex-start;
-  margin: 5px;
-  align-items: center;
-}
-.kakao-qr div:first-child {
-  display: flex;
-  background-color: #4e7ede;
-  border-radius: 5px;
-  font-size: 12px;
-  color: white;
-  width: 54px;
-  height: 17px;
-  justify-content: center;
-}
-.kakao-qr__badge span {
-  opacity: 0.8;
-}
-.kakao-qr div {
-  margin: 10px;
-}
-.shap-bottom {
-  background: url("file:///C:/Users/eunji/OneDrive/Desktop/kokoa%20clone/practice-myself/add.jpg")
-    no-repeat;
-  width: 483px;
-  height: 100%;
-}
-.shap-bottom__ad {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  opacity: 0.8;
-  padding: 15px;
-}
-.shap-bottom__ad div:last-child span {
-  border: 1px solid gray;
-  border-radius: 5px;
-  padding: 5px;
-}
-.shap-search {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  border: 2px solid #ffd900;
-  border-radius: 5px;
-  padding: 5px 10px;
-  margin: 5px 14px 0px;
-  align-items: center;
+.shap-news__header-title {
+  color: rgb(178, 178, 178);
+  padding: 0px 20px 15px;
   font-size: 20px;
 }
-.shap-search_shap {
+.shap-news__header-black span {
+  border-bottom: 2px solid black;
+  color: black;
+  padding-bottom: 11px;
+}
+.class-border {
+  border-bottom: 1px solid rgb(178, 178, 178);
+  margin-bottom: 10px;
+}
+.shap-news__header {
+  padding: 0px 20px 5px;
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+}
+.shap-news__header-big {
+  padding-bottom: 5px;
+}
+.shap-news__header-small span {
+  color: #d06a74;
+}
+.shap-news__header-small i {
+  color: rgb(178, 178, 178);
+}
+.shap-news__header-img img {
+  width: 50px;
+  height: 50px;
+}
+.bold-border {
+  border-bottom: 5px solid #efefef;
+  margin-bottom: 10px;
+}
+.shap-news__main {
+  padding: 0px 20px 10px;
+}
+.shap-news__main-text {
+  padding: 10px 0px;
+}
+.shap-news__main-text + .shap-news__main-text {
+  border-top: 1px solid #efefef;
+}
+.shap-news__main-img {
+  display: flex;
+  justify-content: space-between;
+}
+.shap-news__main-img-news {
   width: 100%;
-  font-weight: bold;
-  color: #ffd900;
 }
-.shap-search_text input {
-  margin-left: 10px;
-  width: 383px;
-  border: none;
-  opacity: 0.6;
+.shap-news__main-img-news + .shap-news__main-img-news {
+  padding-left: 10px;
 }
-.shap-search i {
-  width: 20%;
-  color: #ffd900;
+.shap-news__main-img-news img {
+  min-width: 100%;
 }
-.shap-search__back {
-  background: url("file:///C:/Users/eunji/OneDrive/Desktop/kokoa%20clone/practice-myself/white.jpg")
-    no-repeat;
-  width: 483px;
-  height: 100%;
+@media screen and (max-width: 329px) {
+  .shap-news__main {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+.bold-border__last {
+  border-top: 5px solid #efefef;
+  padding-bottom: 15px;
+  background-color: black;
+}
+.shap-news__footer {
+  padding: 0px 20px;
+}
+.shap-news__footer-qr {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.shap-news__footer-qrbadge {
+  background-color: #4e7ede;
+  padding: 3px;
+  margin-right: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+}
+.shap-news__bottom {
+  background-image: url("http://www.thestable.com.au/wp-content/uploads/2020/02/Publicis-Heineken-Cheers-to-all-2.png");
+}
+.shap-news__bottom-ad {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.8;
+}
+.shap-news__bottom-ad span {
+  color: white;
+}
+.shap-news__bottom-ad div:last-child {
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 5px;
+}
+.shap-news__bottom-back {
+  padding: 0px;
+  background-color: white;
   border-top: 1px solid white;
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
-.shap-bottom__hash {
-  padding: 10px 25px;
+.shap-news__bottom-search {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #ffd900;
+  border-radius: 7px;
+  margin: 5px 10px;
+  align-items: center;
 }
-.shap-bottom__hash span {
-  background-color: rgba(0, 0, 0, 0.1);
-  line-height: 200%;
-  border-radius: 10px;
-  padding: 1px 5px;
-  font-size: 15px;
+.shap-news__bottom-search-input {
+  margin-left: 15px;
+}
+.shap-news__bottom-search-input input {
+  border-style: none;
+}
+.shap-news__bottom-search-icon {
+  margin-right: 15px;
+}
+.shap-news__bottom-shap {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.shap-news__bottom-shap span {
+  font-weight: 700;
+  font-size: 20px;
+}
+.shap-news__bottom-hash {
+  padding: 0px 20px;
+  text-align: start;
+}
+.shap-news__bottom-hash span {
+  background-color: #efefef;
+  padding: 3px;
+  border-radius: 5px;
+  color: gray;
+  font-size: 11px;
+}
+.shap-news__bottom-hash div:first-child {
+  margin: 10px 0px;
 }
