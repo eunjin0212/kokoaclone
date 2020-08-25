@@ -1,5 +1,5 @@
 .all {
-  height: 745px;
+  height: 200px;
 }
 .main-screen-shap {
   padding: 0px 25px;
@@ -166,7 +166,7 @@
   padding: 10px 25px;
 }
 .shap-bottom__hash span {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   line-height: 200%;
   border-radius: 10px;
   padding: 1px 5px;
