@@ -1,0 +1,65 @@
+.more-user {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  align-items: center;
+}
+.user__box {
+  display: flex;
+}
+.user__image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 17px;
+  border: 1px solid wheat;
+}
+.user__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.user__my {
+  display: flex;
+  align-items: center;
+}
+.user__my img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.user__my div {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 18px;
+  padding: 3px;
+}
+.user__my div:first-child {
+  margin-right: 5px;
+}
+.pay {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+.pay__icon {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+.pay__icon span:nth-child(2) {
+  font-weight: bolder;
+}
+.pay__text {
+  display: flex;
+}
+.pay__text div {
+  margin: 0px 5px 0px;
+}
+.pay__text div ~ .pay__text div {
+  border-right: 1px solid gray;
+}
