@@ -1,0 +1,24 @@
+.settings__setting {
+  padding: 15px 0 35px 0;
+  margin: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-between;
+}
+.settings__setting:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.setting-version i,
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+.setting-version:not(.setting-version:first-child) {
+  color: rgba(0, 0, 0, 0.4);
+  display: block;
+}
+.setting-version div:nth-child(n + 2):nth-child(-n + 3) {
+  color: rgba(0, 0, 0, 0.4);
+}

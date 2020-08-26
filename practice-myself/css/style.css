@@ -17,11 +17,14 @@
 @import "screencss/index.css";
 @import "screencss/shap.css";
 @import "screencss/more.css";
+@import "screencss/settings.css";
 
 body {
   margin: 0px;
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  height: auto;
+  padding: 0px;
 }
 .main-screen {
   padding: 0px 20px;
