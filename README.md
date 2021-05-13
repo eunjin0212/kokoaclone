@@ -1,4 +1,4 @@
-## [ ☞ My KakaoTalk ☜ ](https://eunjin0212.github.io/kokoaclone/practice/)
+## [ ☞ My KakaoTalk ☜ ](https://eunjin0212.github.io/HtmlCSS-KokoaClone/practice/)
 
 
 
